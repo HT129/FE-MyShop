@@ -6,7 +6,7 @@ import logo from '../assets/images/Logo-2.png'
 const mainNav = [
     {
         display: "Trang chủ",
-        path: "/"
+        path: "/FE-MyShop"
     },
     {
         display: "Sản phẩm",
@@ -50,7 +50,7 @@ const Header = () => {
         <div className="header" ref={headerRef}>
             <div className="container">
                 <div className="header__logo">
-                    <Link to="/">
+                    <Link to="/FE-MyShop">
                         <img src={logo} alt="" />
                     </Link>
                 </div>
